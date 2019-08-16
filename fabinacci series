@@ -1,0 +1,6 @@
+def fabinacci(a):
+    if a==1or a==2:
+        return 1
+    else:
+        return fabinacci(a-1)+fabinacci(a-2)
+#this code is for finding fabinacci series using recursion        
